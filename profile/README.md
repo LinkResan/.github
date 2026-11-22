@@ -34,16 +34,19 @@ This file is the canonical source content for the GitHub Organization profile at
 
 ## Current verified public status
 
-The official public repository is synchronized with verified Production milestones through **2026-09-06**.
+The official public repository is synchronized with verified Production milestones through **2026-11-22** (release **v7.14.0 — Reliability, Security & Analytics Refresh**, 24 merged pull requests, CI green).
 
 Latest public-safe milestones include:
-- CRM360 analytics and Bio traffic tracking
-- original QR preview/download support
-- Analytics Pro P0
-- canonical SEO/GEO entity/schema foundation
-- Knowledge freshness and analytics-intelligence publishing
-- server-authoritative usage meters
-- Android delivery workflow
+- Security hardening: HSTS, CSP and hardening headers on every response (activates with the next production deploy)
+- Real HTTP 404 contract for unknown, expired and exhausted short links
+- Analytics Pro P0/P1/P2: top links, drilldown, conversions, period comparison with decision insights
+- Smart Links routing: device/country rules with dashboard management and safe fallback
+- Privacy-safe GA4 production integration and growth funnel event persistence
+- Autonomous Knowledge Engine recovered on zero-cost execution + first recovered Persian publication
+- Release Center with verified change history (آخرین تغییرات)
+- Admin User 360 / CRM resources completed (Neon-backed)
+- Isolated Cloudflare preview lane and GitHub Actions free-tier cost optimization
+- CRM360 analytics, Bio traffic tracking, canonical SEO/GEO foundation, server-authoritative usage meters (earlier milestones)
 
 ## Public / private architecture boundary
 
