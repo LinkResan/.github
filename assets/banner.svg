@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="LinkResan — Persian-first smart link management platform">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="55%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#4c1d95"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="300" rx="16" fill="url(#bg)"/>
+  <circle cx="1050" cy="60" r="180" fill="url(#glow)"/>
+  <circle cx="120" cy="260" r="150" fill="url(#glow)"/>
+
+  <!-- decorative chain-link dots -->
+  <g fill="none" stroke="#818cf8" stroke-opacity="0.25" stroke-width="2">
+    <circle cx="90"  cy="80" r="16"/>
+    <circle cx="122" cy="80" r="16"/>
+    <circle cx="1110" cy="230" r="16"/>
+    <circle cx="1078" cy="230" r="16"/>
+  </g>
+
+  <!-- chain-link logo mark -->
+  <g transform="translate(90,150)" stroke="url(#accent)" stroke-width="9" fill="none" stroke-linecap="round">
+    <rect x="-52" y="-22" width="72" height="44" rx="22" transform="rotate(-45 -16 0)"/>
+    <rect x="-20" y="-22" width="72" height="44" rx="22" transform="rotate(-45 16 0)"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="170" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="700" fill="#f8fafc">LinkResan</text>
+  <text x="170" y="198" font-family="Vazirmatn, Segoe UI, Arial, sans-serif" font-size="32" fill="#c7d2fe">لینک‌رسان</text>
+
+  <!-- taglines -->
+  <text x="1120" y="135" font-family="Segoe UI, Arial, sans-serif" font-size="19" fill="#94a3b8" text-anchor="end">Smart Links · Analytics · Link-in-Bio · QR · API</text>
+  <text x="1120" y="175" font-family="Vazirmatn, Segoe UI, Arial, sans-serif" font-size="19" fill="#94a3b8" text-anchor="end">کوتاه‌کننده لینک ایرانی · تحلیل کلیک · لینک‌بیو · دامنه اختصاصی</text>
+
+  <text x="1120" y="262" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#34d399" text-anchor="end">linkresan.ir</text>
+</svg>

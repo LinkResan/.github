@@ -1,90 +1,134 @@
-# LinkResan Organization Profile — Source Content
-
-This file is the canonical source content for the GitHub Organization profile at `github.com/LinkResan`.
-
----
-
 <div align="center">
 
-# 🔗 LinkResan | لینک‌رسان
+<img src="https://raw.githubusercontent.com/LinkResan/.github/main/assets/banner.svg" alt="LinkResan — پلتفرم ایرانی مدیریت هوشمند لینک | Persian-first smart link management platform" width="100%"/>
 
-### Persian-first smart link management, analytics and growth platform
+# LinkResan · لینک‌رسان
 
-**ساخت، مدیریت، تحلیل و رشد لینک‌ها برای کاربران، سازندگان محتوا، تیم‌های رشد و توسعه‌دهندگان.**
+**پلتفرم ایرانی مدیریت لینک: کوتاه‌کننده لینک، تحلیل کلیک، دامنه اختصاصی، لینک‌بیو، QR و API**
+**The Persian-first smart link platform: short links, click analytics, custom domains, link-in-bio, QR & API**
 
-[🌐 Website](https://linkresan.ir) · [📦 Official Repository](https://github.com/LinkResan/LinkResan) · [📚 Knowledge](https://linkresan.ir/knowledge) · [🚀 Releases](https://github.com/LinkResan/LinkResan/releases) · [🧭 Roadmap](https://github.com/LinkResan/LinkResan/blob/main/docs/ROADMAP.md)
+[🌐 وب‌سایت / Website](https://linkresan.ir) · [💳 قیمت‌گذاری / Pricing](https://linkresan.ir/pricing) · [📚 دانش‌نامه / Knowledge](https://linkresan.ir/knowledge) · [❓ سوالات متداول / FAQ](https://linkresan.ir/faq) · [🚀 آخرین تغییرات / Releases](https://linkresan.ir/releases)
+
+![Release](https://img.shields.io/badge/release-v7.15.0-818cf8?style=flat-square)
+![Production CI](https://img.shields.io/badge/production-CI%20green-34d399?style=flat-square)
+![Platform](https://img.shields.io/badge/platform-Web%20%7C%20Android%20%7C%20iOS-c7d2fe?style=flat-square)
+![Language](https://img.shields.io/badge/Persian%20%7C%20English-RTL--first-a78bfa?style=flat-square)
 
 </div>
 
 ---
 
-## What LinkResan delivers
+## 📥 دانلود اپ موبایل · Mobile App Downloads
 
-- 🔗 Smart link creation and management
-- 📊 Analytics Pro and usage visibility
-- 🧾 QR workflows and campaign tooling
-- 🌐 Custom domains
-- 🌲 Link-in-bio
-- 👥 Team collaboration
-- 🔑 API Keys and Webhooks
-- 💳 Rial billing with server-authoritative entitlements
-- 🧠 Persian Knowledge Engine
-- 🔎 SEO/GEO-ready public content surfaces
-- 📱 Native/mobile delivery work in Preview / Partial state
+| پلتفرم | فایل | لینک مستقیم |
+|---|---|---|
+| 🤖 Android (APK) | `LinkResan-Android-v7.15.0.apk` | [⬇️ دانلود مستقیم APK](https://github.com/LinkResan/LinkResan/releases/download/v7.15.0/LinkResan-Android-v7.15.0.apk) |
+| 🍎 iOS (Simulator) | `LinkResan-iOS-Simulator-v7.15.0.zip` | [⬇️ صفحه Release و همه فایل‌ها](https://github.com/LinkResan/LinkResan/releases/tag/v7.15.0) |
 
-## Current verified public status
+> 🍎 نسخه iOS فعلی بیلد **شبیه‌ساز** است (برای اجرا روی Mac). نصب روی آیفون واقعی پس از فعال‌سازی حساب Apple Developer و TestFlight فعال می‌شود.
+> The current iOS artifact is a **Simulator build** (runs on macOS). Real-device installation via TestFlight activates after Apple Developer enrollment.
 
-The official public repository is synchronized with verified Production milestones through **2026-11-22** (release **v7.14.0 — Reliability, Security & Analytics Refresh**, 24 merged pull requests, CI green).
+- 📖 راهنمای نصب فارسی: [`mobile/README.md`](https://github.com/AmirMotefaker/LinkResan-Production/blob/main/mobile/README.md)
+- 🛠️ هویت اپ: `ir.linkresan.mobile` — بیلد خودکار با هر تغییر روی `mobile/**`
 
-Latest public-safe milestones include:
-- Security hardening: HSTS, CSP and hardening headers on every response (activates with the next production deploy)
-- Real HTTP 404 contract for unknown, expired and exhausted short links
-- Analytics Pro P0/P1/P2: top links, drilldown, conversions, period comparison with decision insights
-- Smart Links routing: device/country rules with dashboard management and safe fallback
-- Privacy-safe GA4 production integration and growth funnel event persistence
-- Autonomous Knowledge Engine recovered on zero-cost execution + first recovered Persian publication
-- Release Center with verified change history (آخرین تغییرات)
-- Admin User 360 / CRM resources completed (Neon-backed)
-- Isolated Cloudflare preview lane and GitHub Actions free-tier cost optimization
-- CRM360 analytics, Bio traffic tracking, canonical SEO/GEO foundation, server-authoritative usage meters (earlier milestones)
+---
 
-## Public / private architecture boundary
+<div dir="rtl" align="right">
 
-`LinkResan/LinkResan` is the canonical **public product and development record**.
+## درباره لینک‌رسان
 
-The commercial Production implementation remains private in `AmirMotefaker/LinkResan-Production`.
+**لینک‌رسان (LinkResan)** یک پلتفرم ایرانی مدیریت هوشمند لینک است که در [linkresan.ir](https://linkresan.ir) ارائه می‌شود. لینک‌رسان به کاربران، تولیدکنندگان محتوا، تیم‌های رشد و توسعه‌دهندگان کمک می‌کند لینک‌های خود را **بسازند، کوتاه کنند، مدیریت کنند، تحلیل کنند و رشد دهند** — همه در یک تجربه کاملاً فارسی و راست‌به‌چپ.
 
-The public organization never publishes:
-- proprietary Production source code
-- credentials, tokens or secrets
-- customer data or identifiers
-- database URLs or migration SQL
-- payment credentials or transaction evidence
-- private deployment topology
-- sensitive admin/CRM implementation details
+### قابلیت‌های اصلی
 
-## Engineering governance
+| حوزه | قابلیت‌ها |
+|---|---|
+| 🔗 مدیریت لینک | کوتاه‌کننده لینک، اسلاگ دلخواه، تاریخ انقضا، محدودیت کلیک، لینک رمزدار، ساخت انبوه CSV |
+| 📊 تحلیل | آمار کلیک زنده، تحلیل دستگاه و مرورگر، گزارش‌های Excel جدول‌بندی‌شده، نمای ۳۶۰ درجه کاربر |
+| 🌐 برندینگ | دامنه اختصاصی، QR Code، لینک‌بیو (bio page)، Smart Links با مسیریابی کشوری و دستگاهی |
+| 🧩 پلتفرم | API Keys، Webhooks، مدیریت تیم، پرداخت ریالی با اعمال سهمیه سمت سرور |
+| 📱 موبایل | اپ اندروید (APK) و iOS با هویت رسمی `ir.linkresan.mobile` |
+| 🧠 دانش | دانش‌نامه فارسی خودکار، صفحه سوالات متداول، مرکز تغییرات |
 
-Meaningful public changes follow a traceable workflow:
+### اعداد امروز (زنده در سایت)
+
+**۱۱۹+ کاربر ثبت‌نام‌شده · ۱۴۰+ لینک ساخته‌شده · ۴٬۵۰۰+ کلیک ثبت‌شده** — این آمار با به‌روزرسانی هر ۲۰ ثانیه در [صفحه اصلی](https://linkresan.ir) به‌صورت زنده نمایش داده می‌شود.
+
+### چرا لینک‌رسان؟
+
+- ✅ **فارسی‌محور واقعی:** رابط کاربری کامل RTL، پشتیبانی از اعداد فارسی و تجربه بومی
+- ✅ **شفافیت کامل:** تاریخچه تغییرات تأییدشده در [صفحه آخرین تغییرات](https://linkresan.ir/releases) و [Release Ledger](https://github.com/LinkResan/LinkResan/blob/main/docs/RELEASE_LEDGER.md)
+- ✅ **اعتماد مهندسی:** هدرهای امنیتی HSTS/CSP، احراز هویت سمت سرور، سیاست public-safe در انتشار
+- ✅ **سئو و GEO آماده:** محتوای ساختاریافته برای موتورهای جست‌وجو و دسترسی باز خزنده‌های هوش مصنوعی (GPTBot، ClaudeBot، Gemini و…)
+
+</div>
+
+---
+
+## About LinkResan
+
+**LinkResan** is a Persian-first smart link management platform available at [linkresan.ir](https://linkresan.ir). It combines a **URL shortener**, **click analytics**, **custom domains**, **QR codes**, **link-in-bio pages** and a developer **API** in one product built natively for Persian (Farsi) users and RTL interfaces.
+
+### Feature highlights
+
+| Area | Capabilities |
+|---|---|
+| 🔗 Link Management | URL shortener, custom slugs, expiry, click limits, password-protected links, bulk CSV creation |
+| 📊 Analytics | Live click stats, device & browser breakdown, tabulated Excel exports, 360° user view |
+| 🌐 Branding | Custom domains, QR codes, link-in-bio, Smart Links with country/device routing |
+| 🧩 Platform | API keys, webhooks, team management, Rial billing with server-authoritative entitlements |
+| 📱 Mobile | Android (APK) and iOS apps with the official identity `ir.linkresan.mobile` |
+| 🧠 Knowledge | Autonomous Persian knowledge engine, FAQ hub, verified release center |
+
+### Engineering snapshot
+
+| Layer | Technology |
+|---|---|
+| Web | Next.js 16 · React 19 · TypeScript |
+| Backend | Go (Fiber) · PostgreSQL · Redis |
+| Mobile | React Native / Expo — Android APK + iOS |
+| Delivery | Cloudflare edge · Render backend · GitHub Actions CI with health gates |
+
+### Trust & transparency
+
+- `Shipped` / `Partial` / `Preview` states are reported honestly — nothing in preview is advertised as shipped.
+- Security headers (HSTS, CSP), server-side authentication and server-authoritative plan enforcement.
+- Public content follows a strict **public-safe boundary**: no credentials, customer data or private topology is ever published.
+
+---
+
+## 🗺️ Explore · کاوش
+
+| | |
+|---|---|
+| 🌐 Product / محصول | [linkresan.ir](https://linkresan.ir) |
+| 💳 Pricing / قیمت‌گذاری | [linkresan.ir/pricing](https://linkresan.ir/pricing) |
+| 📚 Knowledge base / دانش‌نامه | [linkresan.ir/knowledge](https://linkresan.ir/knowledge) |
+| ❓ FAQ / سوالات متداول | [linkresan.ir/faq](https://linkresan.ir/faq) |
+| 🚀 Release center / مرکز تغییرات | [linkresan.ir/releases](https://linkresan.ir/releases) |
+| 📦 Public repository / مخزن عمومی | [LinkResan/LinkResan](https://github.com/LinkResan/LinkResan) |
+| 🧭 Roadmap | [docs/ROADMAP.md](https://github.com/LinkResan/LinkResan/blob/main/docs/ROADMAP.md) |
+| 🛡️ Security / امنیت | [docs/SECURITY.md](https://github.com/LinkResan/LinkResan/blob/main/docs/SECURITY.md) |
+
+## Governance · فرایند مهندسی
 
 `Issue → Branch → Commits → Pull Request → Review → Merge → Release record`
 
-This keeps LinkResan's public development history auditable without weakening commercial confidentiality.
+`LinkResan/LinkResan` is the canonical **public product & development record**; the commercial production implementation stays private. The organization never publishes proprietary source, secrets, customer data or deployment topology.
 
-## Explore LinkResan
+<div dir="rtl" align="right">
 
-- **Product:** https://linkresan.ir
-- **Pricing:** https://linkresan.ir/pricing
-- **Knowledge:** https://linkresan.ir/knowledge
-- **Contact:** https://linkresan.ir/contact
-- **Public repository:** https://github.com/LinkResan/LinkResan
-- **Release ledger:** https://github.com/LinkResan/LinkResan/blob/main/docs/RELEASE_LEDGER.md
-- **Security guidance:** https://github.com/LinkResan/LinkResan/blob/main/docs/SECURITY.md
+مخزن عمومی، سابقه قابل‌حسابرسی توسعه لینک‌رسان را نگه می‌دارد؛ پیاده‌سازی تجاری Production به‌صورت خصوصی نگهداری می‌شود و هرگز سورس اختصاصی، اطلاعات مشتریان یا توپولوژی استقرار منتشر نمی‌شود.
+
+</div>
 
 ---
 
 <div align="center">
 
-**LinkResan — لینک فقط کوتاه نمی‌شود؛ هوشمند، قابل‌اندازه‌گیری و قابل‌مدیریت می‌شود.**
+**لینک فقط کوتاه نمی‌شود؛ هوشمند، قابل‌اندازه‌گیری و قابل‌مدیریت می‌شود.**
+**A link should not just be shorter — it should be smart, measurable and manageable.**
+
+[🌐 linkresan.ir](https://linkresan.ir) · [⬇️ دانلود اپ / Get the app](https://github.com/LinkResan/LinkResan/releases/tag/v7.15.0)
 
 </div>
