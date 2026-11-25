@@ -20,11 +20,15 @@
 
 ## 📥 دانلود اپ موبایل · Mobile App Downloads
 
+از نسخه **v7.16.0** اپ لینک‌رسان **کاملاً Native** است — اندروید با Kotlin + Jetpack Compose و iOS با SwiftUI. حجم APK فقط **۲.۸ مگابایت** (۹۷٪ کمتر از نسخه React Native قبلی).
+
 | پلتفرم | فایل | لینک مستقیم |
 |---|---|---|
-| 🤖 Android (APK) | `LinkResan-Android-v2.0-arm64.apk` (v2.0، arm64) | [⬇️ دانلود مستقیم APK v2.0](https://github.com/LinkResan/LinkResan/releases/download/v7.15.0/LinkResan-Android-v2.0-arm64.apk) |
-| 🍎 iOS (Simulator) | `LinkResan-iOS-Simulator-v7.15.0.zip` | [⬇️ صفحه Release و همه فایل‌ها](https://github.com/LinkResan/LinkResan/releases/tag/v7.15.0) |
+| 🤖 Android (APK) | `LinkResan-Android-v7.16.0.apk` — **فقط ۲.۸MB** | [⬇️ دانلود مستقیم APK v7.16.0](https://github.com/LinkResan/LinkResan/releases/download/v7.16.0/LinkResan-Android-v7.16.0.apk) |
+| 🤖 Android (AAB — برای Google Play) | `LinkResan-Android-v7.16.0.aab` | [⬇️ صفحه Release و همه فایل‌ها](https://github.com/LinkResan/LinkResan/releases/tag/v7.16.0) |
+| 🍎 iOS (Simulator) | `LinkResan-iOS-Simulator-v7.16.0.zip` | [⬇️ صفحه Release و همه فایل‌ها](https://github.com/LinkResan/LinkResan/releases/tag/v7.16.0) |
 
+> ⚠️ برای نصب مستقیم، ابتدا نسخه قبلی (React Native) را حذف کنید — امضای اپ عوض شده.
 > 🍎 نسخه iOS فعلی بیلد **شبیه‌ساز** است (برای اجرا روی Mac). نصب روی آیفون واقعی پس از فعال‌سازی حساب Apple Developer و TestFlight فعال می‌شود.
 > The current iOS artifact is a **Simulator build** (runs on macOS). Real-device installation via TestFlight activates after Apple Developer enrollment.
 
@@ -86,7 +90,7 @@
 |---|---|
 | Web | Next.js 16 · React 19 · TypeScript |
 | Backend | Go (Fiber) · PostgreSQL · Redis |
-| Mobile | React Native / Expo — Android APK + iOS |
+| Mobile | کاملاً Native — Kotlin + Jetpack Compose (اندروید) و SwiftUI (iOS) |
 | Delivery | Cloudflare edge · Render backend · GitHub Actions CI with health gates |
 
 ### Trust & transparency
