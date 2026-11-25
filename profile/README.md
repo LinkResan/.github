@@ -22,7 +22,7 @@
 
 | پلتفرم | فایل | لینک مستقیم |
 |---|---|---|
-| 🤖 Android (APK) | `LinkResan-Android-v7.15.0.apk` | [⬇️ دانلود مستقیم APK](https://github.com/LinkResan/LinkResan/releases/download/v7.15.0/LinkResan-Android-v7.15.0.apk) |
+| 🤖 Android (APK) | `LinkResan-Android-v2.0-arm64.apk` (v2.0، arm64) | [⬇️ دانلود مستقیم APK v2.0](https://github.com/LinkResan/LinkResan/releases/download/v7.15.0/LinkResan-Android-v2.0-arm64.apk) |
 | 🍎 iOS (Simulator) | `LinkResan-iOS-Simulator-v7.15.0.zip` | [⬇️ صفحه Release و همه فایل‌ها](https://github.com/LinkResan/LinkResan/releases/tag/v7.15.0) |
 
 > 🍎 نسخه iOS فعلی بیلد **شبیه‌ساز** است (برای اجرا روی Mac). نصب روی آیفون واقعی پس از فعال‌سازی حساب Apple Developer و TestFlight فعال می‌شود.
