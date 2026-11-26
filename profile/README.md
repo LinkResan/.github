@@ -9,7 +9,7 @@
 
 [🌐 وب‌سایت / Website](https://linkresan.ir) · [💳 قیمت‌گذاری / Pricing](https://linkresan.ir/pricing) · [📚 دانش‌نامه / Knowledge](https://linkresan.ir/knowledge) · [❓ سوالات متداول / FAQ](https://linkresan.ir/faq) · [🚀 آخرین تغییرات / Releases](https://linkresan.ir/releases)
 
-![Release](https://img.shields.io/badge/release-v7.15.0-818cf8?style=flat-square)
+![Release](https://img.shields.io/badge/release-v7.19.0-818cf8?style=flat-square)
 ![Production CI](https://img.shields.io/badge/production-CI%20green-34d399?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-Web%20%7C%20Android%20%7C%20iOS-c7d2fe?style=flat-square)
 ![Language](https://img.shields.io/badge/Persian%20%7C%20English-RTL--first-a78bfa?style=flat-square)
@@ -20,13 +20,13 @@
 
 ## 📥 دانلود اپ موبایل · Mobile App Downloads
 
-از نسخه **v7.16.0** اپ لینک‌رسان **کاملاً Native** است — اندروید با Kotlin + Jetpack Compose و iOS با SwiftUI. حجم APK فقط **۲.۸ مگابایت** (۹۷٪ کمتر از نسخه React Native قبلی). نسخه فعلی: **v7.17.0** — فارسی پیش‌فرض در اولین اجرا، تعویض زبان در صفحه ورود و اصلاح خطای ورود.
+از نسخه **v7.16.0** اپ لینک‌رسان **کاملاً Native** است — اندروید با Kotlin + Jetpack Compose و iOS با SwiftUI. حجم APK فقط **۲.۸ مگابایت** (۹۷٪ کمتر از نسخه React Native قبلی). نسخه فعلی: **v7.19.0** — فارسی پیش‌فرض در اولین اجرا، تعویض زبان در صفحه ورود و اصلاح خطای ورود.
 
 | پلتفرم | فایل | لینک مستقیم |
 |---|---|---|
-| 🤖 Android (APK) | `LinkResan-Android-v7.17.0.apk` — **فقط ۲.۸MB** | [⬇️ دانلود مستقیم APK v7.17.0](https://github.com/LinkResan/LinkResan/releases/download/v7.17.0/LinkResan-Android-v7.17.0.apk) |
-| 🤖 Android (AAB — برای Google Play) | `LinkResan-Android-v7.17.0.aab` | [⬇️ صفحه Release و همه فایل‌ها](https://github.com/LinkResan/LinkResan/releases/tag/v7.17.0) |
-| 🍎 iOS (Simulator) | `LinkResan-iOS-Simulator-v7.17.0.zip` | [⬇️ صفحه Release و همه فایل‌ها](https://github.com/LinkResan/LinkResan/releases/tag/v7.17.0) |
+| 🤖 Android (APK) | `LinkResan-Android-v7.19.0.apk` — **فقط ۲.۸MB** | [⬇️ دانلود مستقیم APK v7.19.0](https://github.com/LinkResan/LinkResan/releases/download/v7.19.0/LinkResan-Android-v7.19.0.apk) |
+| 🤖 Android (AAB — برای Google Play) | `LinkResan-Android-v7.19.0.aab` | [⬇️ صفحه Release و همه فایل‌ها](https://github.com/LinkResan/LinkResan/releases/tag/v7.19.0) |
+| 🍎 iOS (Simulator) | `LinkResan-iOS-Simulator-v7.19.0.zip` | [⬇️ صفحه Release و همه فایل‌ها](https://github.com/LinkResan/LinkResan/releases/tag/v7.19.0) |
 
 > ⚠️ برای نصب مستقیم، ابتدا نسخه قبلی (React Native) را حذف کنید — امضای اپ عوض شده.
 > 🍎 نسخه iOS فعلی بیلد **شبیه‌ساز** است (برای اجرا روی Mac). نصب روی آیفون واقعی پس از فعال‌سازی حساب Apple Developer و TestFlight فعال می‌شود.
