@@ -9,7 +9,10 @@
 
 [🌐 وب‌سایت / Website](https://linkresan.ir) · [💳 قیمت‌گذاری / Pricing](https://linkresan.ir/pricing) · [📚 دانش‌نامه / Knowledge](https://linkresan.ir/knowledge) · [❓ سوالات متداول / FAQ](https://linkresan.ir/faq) · [🚀 آخرین تغییرات / Releases](https://linkresan.ir/releases)
 
-![Release](https://img.shields.io/badge/release-v7.19.0-818cf8?style=flat-square)
+[🎬 ویدئوی معرفی / Intro video (Aparat)](https://www.aparat.com/v/lgte1a5) · [📸 اینستاگرام / Instagram](https://www.instagram.com/linkresan.ir) · [📲 کافه‌بازار / Cafe Bazaar](https://cafebazaar.ir/app/ir.linkresan.mobile)
+
+![Release](https://img.shields.io/badge/release-v7.21.2-818cf8?style=flat-square)
+![Cafe Bazaar](https://img.shields.io/badge/%DA%A9%D8%A7%D9%81%D9%87%E2%80%8C%D8%A8%D8%A7%D8%B2%D8%A7%D8%B1-%D9%85%D9%86%D8%AA%D8%B4%D8%B1-f9a825?style=flat-square)
 ![Production CI](https://img.shields.io/badge/production-CI%20green-34d399?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-Web%20%7C%20Android%20%7C%20iOS-c7d2fe?style=flat-square)
 ![Language](https://img.shields.io/badge/Persian%20%7C%20English-RTL--first-a78bfa?style=flat-square)
@@ -20,13 +23,14 @@
 
 ## 📥 دانلود اپ موبایل · Mobile App Downloads
 
-از نسخه **v7.16.0** اپ لینک‌رسان **کاملاً Native** است — اندروید با Kotlin + Jetpack Compose و iOS با SwiftUI. حجم APK فقط **۲.۸ مگابایت** (۹۷٪ کمتر از نسخه React Native قبلی). نسخه فعلی: **v7.19.0** — فارسی پیش‌فرض در اولین اجرا، تعویض زبان در صفحه ورود و اصلاح خطای ورود.
+از نسخه **v7.16.0** اپ لینک‌رسان **کاملاً Native** است — اندروید با Kotlin + Jetpack Compose و iOS با SwiftUI. حجم APK فقط **۲.۹ مگابایت**. نسخه فعلی: **v7.21.2** — پایدارترین نسخه تا امروز (بازیابی خودکار از خطا + گزارش خودکار کرش) و لینک‌رسان حالا در **کافه‌بازار** هم منتشر شده است.
 
 | پلتفرم | فایل | لینک مستقیم |
 |---|---|---|
-| 🤖 Android (APK) | `LinkResan-Android-v7.19.0.apk` — **فقط ۲.۸MB** | [⬇️ دانلود مستقیم APK v7.19.0](https://github.com/LinkResan/LinkResan/releases/download/v7.19.0/LinkResan-Android-v7.19.0.apk) |
-| 🤖 Android (AAB — برای Google Play) | `LinkResan-Android-v7.19.0.aab` | [⬇️ صفحه Release و همه فایل‌ها](https://github.com/LinkResan/LinkResan/releases/tag/v7.19.0) |
-| 🍎 iOS (Simulator) | `LinkResan-iOS-Simulator-v7.19.0.zip` | [⬇️ صفحه Release و همه فایل‌ها](https://github.com/LinkResan/LinkResan/releases/tag/v7.19.0) |
+| 🤖 Android (APK) | `LinkResan-Android-v7.21.2.apk` — **فقط ۲.۹MB** | [⬇️ دانلود مستقیم APK v7.21.2](https://github.com/LinkResan/LinkResan/releases/download/v7.21.2/LinkResan-Android-v7.21.2.apk) |
+| 🤖 Android (AAB — برای Google Play) | `LinkResan-Android-v7.21.2.aab` | [⬇️ صفحه Release و همه فایل‌ها](https://github.com/LinkResan/LinkResan/releases/tag/v7.21.2) |
+| 📲 کافه‌بازار (پیشنهادی ایران) | نسخه اختصاصی بازار؛ به‌روزرسانی فقط از خود بازار | [⬇️ لینک‌رسان در کافه‌بازار](https://cafebazaar.ir/app/ir.linkresan.mobile) |
+| 🍎 iOS (Simulator) | `LinkResan-iOS-Simulator-v7.21.2.zip` | [⬇️ صفحه Release و همه فایل‌ها](https://github.com/LinkResan/LinkResan/releases/tag/v7.21.2) |
 
 > ⚠️ برای نصب مستقیم، ابتدا نسخه قبلی (React Native) را حذف کنید — امضای اپ عوض شده.
 > 🍎 نسخه iOS فعلی بیلد **شبیه‌ساز** است (برای اجرا روی Mac). نصب روی آیفون واقعی پس از فعال‌سازی حساب Apple Developer و TestFlight فعال می‌شود.
@@ -111,6 +115,9 @@
 | ❓ FAQ / سوالات متداول | [linkresan.ir/faq](https://linkresan.ir/faq) |
 | 🚀 Release center / مرکز تغییرات | [linkresan.ir/releases](https://linkresan.ir/releases) |
 | 📦 Public repository / مخزن عمومی | [LinkResan/LinkResan](https://github.com/LinkResan/LinkResan) |
+| 🎬 ویدئوی معرفی / Intro video | [aparat.com/v/lgte1a5](https://www.aparat.com/v/lgte1a5) |
+| 📸 اینستاگرام / Instagram | [@linkresan.ir](https://www.instagram.com/linkresan.ir) |
+| 📲 کافه‌بازار / Cafe Bazaar | [cafebazaar.ir/app/ir.linkresan.mobile](https://cafebazaar.ir/app/ir.linkresan.mobile) |
 | 🧭 Roadmap | [docs/ROADMAP.md](https://github.com/LinkResan/LinkResan/blob/main/docs/ROADMAP.md) |
 | 🛡️ Security / امنیت | [docs/SECURITY.md](https://github.com/LinkResan/LinkResan/blob/main/docs/SECURITY.md) |
 
@@ -133,6 +140,6 @@
 **لینک فقط کوتاه نمی‌شود؛ هوشمند، قابل‌اندازه‌گیری و قابل‌مدیریت می‌شود.**
 **A link should not just be shorter — it should be smart, measurable and manageable.**
 
-[🌐 linkresan.ir](https://linkresan.ir) · [⬇️ دانلود اپ / Get the app](https://github.com/LinkResan/LinkResan/releases/tag/v7.15.0)
+[🌐 linkresan.ir](https://linkresan.ir) · [⬇️ دانلود اپ / Get the app](https://github.com/LinkResan/LinkResan/releases/tag/v7.21.2)
 
 </div>
